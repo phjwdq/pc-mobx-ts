@@ -1,0 +1,352 @@
+[
+    {
+        "pic": "0.png",
+        "char": "/::)",
+        "text": "微笑"
+    },
+    {
+        "pic": "1.png",
+        "char": "/::~",
+        "text": "伤心"
+    },
+    {
+        "pic": "2.png",
+        "char": "/::B",
+        "text": "美女"
+    },
+    {
+        "pic": "3.png",
+        "char": "/::|",
+        "text": "发呆"
+    },
+    {
+        "pic": "4.png",
+        "char": "/:8-)",
+        "text": "墨镜"
+    },
+    {
+        "pic": "5.png",
+        "char": "/::&lt;",
+        "text": "哭"
+    },
+    {
+        "pic": "6.png",
+        "char": "/::$",
+        "text": "羞"
+    },
+    {
+        "pic": "7.png",
+        "char": "/::X",
+        "text": "哑"
+    },
+    {
+        "pic": "8.png",
+        "char": "/::Z",
+        "text": "睡"
+    },
+    {
+        "pic": "9.png",
+        "char": "/::’(",
+        "text": "哭"
+    },
+    {
+        "pic": "10.png",
+        "char": "/::-|",
+        "text": "囧"
+    },
+    {
+        "pic": "11.png",
+        "char": "/::@",
+        "text": "怒"
+    },
+    {
+        "pic": "12.png",
+        "char": "/::P",
+        "text": "调皮"
+    },
+    {
+        "pic": "13.png",
+        "char": "/::D",
+        "text": "笑"
+    },
+    {
+        "pic": "14.png",
+        "char": "/::O",
+        "text": "惊讶"
+    },
+    {
+        "pic": "15.png",
+        "char": "/::(",
+        "text": "难过"
+    },
+    {
+        "pic": "16.png",
+        "char": "/::+",
+        "text": "酷"
+    },
+    {
+        "pic": "17.png",
+        "char": "/:--b",
+        "text": "汗"
+    },
+    {
+        "pic": "18.png",
+        "char": "/::Q",
+        "text": "抓狂"
+    },
+    {
+        "pic": "19.png",
+        "char": "/::T",
+        "text": "吐"
+    },
+    {
+        "pic": "20.png",
+        "char": "/:,@P",
+        "text": "笑"
+    },
+    {
+        "pic": "21.png",
+        "char": "/:,@-D",
+        "text": "快乐"
+    },
+    {
+        "pic": "22.png",
+        "char": "/::d",
+        "text": "奇"
+    },
+    {
+        "pic": "23.png",
+        "char": "/:,@o",
+        "text": "傲"
+    },
+    {
+        "pic": "24.png",
+        "char": "/::g",
+        "text": "饿"
+    },
+    {
+        "pic": "25.png",
+        "char": "/:|-)",
+        "text": "累"
+    },
+    {
+        "pic": "26.png",
+        "char": "/::!",
+        "text": "吓"
+    },
+    {
+        "pic": "27.png",
+        "char": "/::L",
+        "text": "汗"
+    },
+    {
+        "pic": "28.png",
+        "char": "/::&gt;",
+        "text": "高兴"
+    },
+    {
+        "pic": "29.png",
+        "char": "/::,@",
+        "text": "闲"
+    },
+    {
+        "pic": "30.png",
+        "char": "/:,@f",
+        "text": "努力"
+    },
+    {
+        "pic": "31.png",
+        "char": "/::-S",
+        "text": "骂"
+    },
+    {
+        "pic": "32.png",
+        "char": "/:?",
+        "text": "疑问"
+    },
+    {
+        "pic": "33.png",
+        "char": "/:,@x",
+        "text": "秘密"
+    },
+    {
+        "pic": "34.png",
+        "char": "/:,@@",
+        "text": "乱"
+    },
+    {
+        "pic": "35.png",
+        "char": "/::8",
+        "text": "疯"
+    },
+    {
+        "pic": "36.png",
+        "char": "/:,@!",
+        "text": "哀"
+    },
+    {
+        "pic": "37.png",
+        "char": "/:!!!",
+        "text": "鬼"
+    },
+    {
+        "pic": "38.png",
+        "char": "/:xx",
+        "text": "打击"
+    },
+    {
+        "pic": "39.png",
+        "char": "/:bye",
+        "text": "bye"
+    },
+    {
+        "pic": "40.png",
+        "char": "/:wipe",
+        "text": "汗"
+    },
+    {
+        "pic": "41.png",
+        "char": "/:dig",
+        "text": "抠"
+    },
+    {
+        "pic": "42.png",
+        "char": "/:handclap",
+        "text": "鼓掌"
+    },
+    {
+        "pic": "43.png",
+        "char": "/:&amp;-(",
+        "text": "糟糕"
+    },
+    {
+        "pic": "44.png",
+        "char": "/:B-)",
+        "text": "恶搞"
+    },
+    {
+        "pic": "45.png",
+        "char": "/:&lt;@",
+        "text": "什么"
+    },
+    {
+        "pic": "46.png",
+        "char": "/:@&gt;",
+        "text": "什么"
+    },
+    {
+        "pic": "47.png",
+        "char": "/::-O",
+        "text": "累"
+    },
+    {
+        "pic": "48.png",
+        "char": "/:&gt;-|",
+        "text": "看"
+    },
+    {
+        "pic": "49.png",
+        "char": "/:P-(",
+        "text": "难过"
+    },
+    {
+        "pic": "50.png",
+        "char": "/::'|",
+        "text": "难过"
+    },
+    {
+        "pic": "51.png",
+        "char": "/:X-)",
+        "text": "坏"
+    },
+    {
+        "pic": "52.png",
+        "char": "/::*",
+        "text": "亲"
+    },
+    {
+        "pic": "53.png",
+        "char": "/:@x",
+        "text": "吓"
+    },
+    {
+        "pic": "54.png",
+        "char": "/:8*",
+        "text": "可怜"
+    },
+    {
+        "pic": "55.png",
+        "char": "/:pd",
+        "text": "刀"
+    },
+    {
+        "pic": "56.png",
+        "char": "/:&lt;W&gt;",
+        "text": "水果"
+    },
+    {
+        "pic": "57.png",
+        "char": "/:beer",
+        "text": "酒"
+    },
+    {
+        "pic": "58.png",
+        "char": "/:basketb",
+        "text": "篮球"
+    },
+    {
+        "pic": "59.png",
+        "char": "/:oo",
+        "text": "乒乓"
+    },
+    {
+        "pic": "60.png",
+        "char": "/:coffee",
+        "text": "咖啡"
+    },
+    {
+        "pic": "61.png",
+        "char": "/:eat",
+        "text": "美食"
+    },
+    {
+        "pic": "62.png",
+        "char": "/:pig",
+        "text": "动物"
+    },
+    {
+        "pic": "63.png",
+        "char": "/:rose",
+        "text": "鲜花"
+    },
+    {
+        "pic": "64.png",
+        "char": "/:fade",
+        "text": "枯"
+    },
+    {
+        "pic": "65.png",
+        "char": "/:showlove",
+        "text": "唇"
+    },
+    {
+        "pic": "66.png",
+        "char": "/:heart",
+        "text": "爱"
+    },
+    {
+        "pic": "67.png",
+        "char": "/:break",
+        "text": "分手"
+    },
+    {
+        "pic": "68.png",
+        "char": "/:cake",
+        "text": "生日"
+    },
+    {
+        "pic": "69.png",
+        "char": "/:li",
+        "text": "电"
+    }
+]

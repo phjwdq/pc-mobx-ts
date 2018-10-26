@@ -1,0 +1,96 @@
+# 定义 stages
+stages:
+    - install
+    - test
+    - build
+    - deploy
+
+# 定义测试
+test:
+    stage: test
+    only:
+        - test
+        - master
+    script:
+        - npm run test
+
+# =============================测试环境=================================
+# 安装依赖
+install_deps_test:
+    stage: install
+    only:
+        - test
+    script:
+        - git reset --hard origin/test
+        - git clean -f
+        - git pull origin test
+
+# 构建
+build_test:
+    stage: build
+    only:
+        - test
+    script:
+        - rm -rf public
+        - npm i
+        - npm run qa
+    artifacts:
+        name: "test_$CI_COMMIT_SHA"
+        expire_in: 4 weeks
+        paths:
+            - public
+            - views
+
+# 部署
+deploy_test:
+    stage: deploy
+    only:
+        - test
+    environment:
+        name: test
+    dependencies:
+        - build_test
+    script:
+        - scp -r public/* work@123.57.81.151:/home/work/pwww/test/wap/im
+        - scp views/index.html work@123.57.81.151:/home/work/tcrm/views
+
+# =============================生产环境=================================
+# 安装依赖
+install_deps_pro:
+    stage: install
+    only:
+        - master
+    script:
+        - git reset --hard origin/master
+        - git clean -f
+        - git pull origin master
+
+# 构建
+build_pro:
+    stage: build
+    only:
+        - master
+    script:
+        - rm -rf public
+        - npm i
+        - npm run prod
+    artifacts:
+        name: "prod_$CI_COMMIT_SHA"
+        expire_in: 4 weeks
+        paths:
+            - public
+            - views
+
+# 部署
+deploy_pro:
+    stage: deploy
+    only:
+        - master
+    environment:
+        name: production
+    dependencies:
+        - build_pro
+    script:
+        - scp -r public/* work@60.205.168.108:/home/work/pwww/test/wap/im
+        - scp views/index.html work@60.205.168.108:/home/work/tcrm/views
+

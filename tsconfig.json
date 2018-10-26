@@ -1,0 +1,48 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "esnext",
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports": true,
+        "sourceMap": true,
+        "removeComments": false,
+        "rootDirs": ["./src"],
+        "baseUrl": "./src",
+        "paths": {
+            "@utils/*": ["utils/*"],
+            "@assets/*": ["assets/*"],
+            "@components/*": ["components/*"]
+        },
+        "comment-format": [
+            true,
+            "check-space"
+        ],
+        "whitespace": [
+            true,
+            "check-branch",
+            "check-decl",
+            "check-operator",
+            "check-separator",
+            "check-type"
+        ],
+        "jsx": "react",
+        "no-var-keyword": true,
+        "quotemark": [true, "single"],
+        "alwaysStrict": true,
+        "allowJs": true,
+        "noUnusedLocals": true,
+        "importHelpers": true,
+        "experimentalDecorators": true,
+        "lib": [
+            "esnext",
+            "es7",
+            "es6",
+            "es5",
+            "es2015.promise",
+            "es2015.generator",
+            "dom"
+        ],
+        "skipLibCheck": true,
+        "typeRoots": ["node", "node_modules/@types"]
+    }
+}

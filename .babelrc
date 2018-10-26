@@ -1,0 +1,33 @@
+{
+    "presets": [
+        "env",
+        "react"
+    ],
+    "plugins": [
+        "react-hot-loader/babel",
+        "transform-class-properties",
+        "syntax-async-functions",
+        "syntax-dynamic-import",
+        [
+            "react-css-modules",
+            {
+                "generateScopedName": "[path]___[name]__[local]___[hash:base64:7]",
+                "webpackHotModuleReloading": true,
+                "exclude": "node_modules",
+                "filetypes": {
+                    ".less": {
+                        "syntax": "postcss-less"
+                    }
+                }
+            }
+        ],
+        [
+            "import",
+            {
+                "libraryName": "antd",
+                "libraryDirectory": "es",
+                "style": 'css'
+            }
+        ]
+    ]
+}
